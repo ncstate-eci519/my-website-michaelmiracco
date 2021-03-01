@@ -3,14 +3,31 @@
 }
 
 .text-blue{
-    color: blue;
+  color: white;
+  display: inline-block;
+  background: red;
+  padding: 25px 50px;
+  border: 10px solid darkred;
+  border-radius: 10px;
 }
 
-#second-page-header{
+.second-page-header{
     font-size: 30pxl;
 }
 
-#second-paragraph-red{
-    color: crimson;
+.second-paragraph-red{
+    color: grey;
+    display: inline-block;
+    background: blue;
+    padding: 25px 50px;
+    border: 10px solid rgb(25, 0, 139);
+    border-radius: 10px;
+}
+
+@media (prefers-color-scheme: dark){
+	html{
+		background-color: black;
+		color: white;
+	}
 }
 
