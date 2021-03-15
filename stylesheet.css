@@ -3,9 +3,9 @@
 }
 
 .text-blue{
-  color: white;
+    color:#000000;
   display: inline-block;
-  background: red;
+  background: #FFFFFF;
   padding: 25px 50px;
   border: 10px solid darkred;
   border-radius: 10px;
@@ -16,9 +16,9 @@
 }
 
 .second-paragraph-red{
-    color: grey;
+    color: #000000;
     display: inline-block;
-    background: blue;
+    background: #FFFFFF;
     padding: 25px 50px;
     border: 10px solid rgb(25, 0, 139);
     border-radius: 10px;
