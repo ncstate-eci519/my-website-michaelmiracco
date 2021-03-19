@@ -1,6 +1,11 @@
-@ -1,33 +0,0 @@
 .first-major-header{
     font-size: 34pxl;
+    text-align: center;
+    }
+}
+
+.EdT-header{
+    text-align: center;
 }
 
 .text-blue{
@@ -14,6 +19,7 @@
 
 .second-page-header{
     font-size: 30pxl;
+    text-align: center;
 }
 
 .second-paragraph-red{
