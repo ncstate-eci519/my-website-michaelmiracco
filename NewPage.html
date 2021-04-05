@@ -36,22 +36,49 @@
             </ul>
         </nav>
         <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <script> 
+            $(document).ready(function(){
+              $("#flip").click(function(){
+                $("#panel").slideDown("slow");
+              });
+            });
+            </script>
+            <style> 
+            #panel, #flip {
+              padding: 5px;
+              text-align: center;
+              background-color: #e5eecc;
+              border: solid 1px #c3c3c3;
+            }
+            
+            #panel {
+              padding: 50px;
+              display: none;
+            }
+            </style>
+            </head>
+            <body>
+             
+            <div id="flip">What does clicking on this bar do as a result of the addition of this JQuery element?</div>
+            <div id="panel">It slides down the panel, revealing the answer!</div>
+
+
+            
+            <script>
+                $(document).ready(function(){
+                  $("#btn1").click(function(){
+                    alert("Text: " + $("#test").text());
+                  });
+                  $("#btn2").click(function(){
+                    alert("HTML: " + $("#test").html());
+                  });
+                });
+                </script>
+                </head>
+                <body>
+                
+                <p id="test">This is an example of <em>emphasized</em> text in a paragraph.</p>
+                
+                <button id="btn1">What is Shown as Text</button>
+                <button id="btn2">What is Shown as HTML</button>
         </body>
-	<head>
-		<title>Michael Miracco</title>
-		<meta charset="utf-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-	</head>
-	<body>
-        <h1>
-            Biography
-        </h1>
-            <p>
-                Hello, my name is Michael Miracco and I am a graduating senior here at North Carolina State University.
-                I study in the College of Education, concentrating in Learning Design and Technology.
-                Upon finishing here at NC State, I intend to enter the career field of instructional design, and strive to work among professionals creating the future of online schooling and instruction.
-                Outside of the classroom, I enjoy skateboarding, cooking, playing music, and spending time with my partner and our German Shephard.
-            </p>
-	</body>
-</html>
