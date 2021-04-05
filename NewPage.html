@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Michael Miracco</title>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+	<body>
+        <div class="row">
+            <div class="col-lg-12 col-md-6">
+                Website by Michael Miracco
+            </div>
+            <div class="col-lg-12 col-md-6">
+                ECI 519
+            </div>
+        </div>
+        <nav>
+            <ul id="nav">
+                <div class="row blue">
+                    <div class="col-lg-12 col-md-3">
+                    <li id="navh"><a href="index.html" style="color: #00346B;">About Me</a></li>
+                    </div>
+                    <div class="col-lg-12 col-md-3">
+                    <li id="navh"><a href="Skateboarding.html" style="color: #00346B";>Skateboarding's Impacts on Learning</a></li>
+                    </div>
+                    <div class="col-lg-12 col-md-3">
+                        <li id="navh"><a href="EdTechTools.html" style="color: #00346B";>EdTech Tools</a></li>
+                        </div>
+                        <div class="col-lg-12 col-md-3">
+                            <li id="navh"><a href="NewPage.html" style="color: #00346B;">New Page</a></li>
+                            </div>
+                    </div>
+            </ul>
+        </nav>
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <script> 
+            $(document).ready(function(){
+              $("#flip").click(function(){
+                $("#panel").slideDown("slow");
+              });
+            });
+            </script>
+            <style> 
+            #panel, #flip {
+              padding: 5px;
+              text-align: center;
+              background-color: #e5eecc;
+              border: solid 1px #c3c3c3;
+            }
+            
+            #panel {
+              padding: 50px;
+              display: none;
+            }
+            </style>
+            </head>
+            <body>
+             
+            <div id="flip">What does clicking on this bar do as a result of the addition of this JQuery element?</div>
+            <div id="panel">It slides down the panel, revealing the answer!</div>
+
+            
+
+
+            <script>
+                $(document).ready(function(){
+                  $("#btn1").click(function(){
+                    alert("Text: " + $("#test").text());
+                  });
+                  $("#btn2").click(function(){
+                    alert("HTML: " + $("#test").html());
+                  });
+                });
+                </script>
+                </head>
+                <body>
+                
+                <p id="test">This is an example of <em>emphasized</em> text in a paragraph.</p>
+                
+                <button id="btn1">What is Shown as Text</button>
+                <button id="btn2">What is Shown as HTML</button>
+        </body>
