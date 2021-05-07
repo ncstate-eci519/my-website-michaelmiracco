@@ -1,4 +1,5 @@
-.first-major-header{
+.major-header-skate{
+    text-align: center;
     font-size: 34pxl;
 }
 
@@ -29,3 +30,13 @@
 		background-color: black;
 		color: white;
 	}
+
+.major-header-bio{
+    text-align: center;
+    font-size: 34pxl;
+}
+
+.major-header-edtech{
+    text-align: center;
+    font-size: 34pxl;
+}
