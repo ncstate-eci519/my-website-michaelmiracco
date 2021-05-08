@@ -41,9 +41,17 @@
     font-size: 34pxl;
 }
 
+.major-header-java{
+    text-align: center;
+    font-size: 34pxl;
+}
+
 ul {
     position: fixed;
     top: 0;
     width: 100%;
   }
 
+.pic-of-me{
+    align-items: center;
+}
