@@ -7,8 +7,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="stylesheet.css">
-    </head>
-	<body>
         <div class="row">
             <div class="col-lg-12 col-md-6">
                 Website by Michael Miracco
@@ -17,35 +15,61 @@
                 ECI 519
             </div>
         </div>
-        <nav>
-            <ul id="nav">
-                <div class="row blue">
-                    <div class="col-lg-12 col-md-3">
-                    <li id="navh"><a href="index.html" style="color: #00346B;">About Me</a></li>
-                    </div>
-                    <div class="col-lg-12 col-md-3">
-                    <li id="navh"><a href="Skateboarding.html" style="color: #00346B";>Skateboarding's Impacts on Learning</a></li>
-                    </div>
-                    <div class="col-lg-12 col-md-3">
-                        <li id="navh"><a href="EdTechTools.html" style="color: #00346B";>EdTech Tools</a></li>
-                        </div>
-                        <div class="col-lg-12 col-md-3">
-                            <li id="navh"><a href="NewPage.html" style="color: #00346B;">Interactive Javascript Element</a></li>
-                            </div>
-                    </div>
+        <style>
+            ul {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+              overflow: hidden;
+              border: 1px solid #e7e7e7;
+            background-color: #f3f3f3;
+            position: sticky;
+            }
+            
+            li {
+              float: left;
+              border-right: 1px solid #bbb;
+            }
+            
+            li a {
+              display: block;
+              color: #666;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+            }
+
+            li:last-child {
+            border-right: none;
+            }
+            
+            li a:hover {
+              background-color: #111;
+            }
+            </style>
+            </head>
+            <body>
+            
+            <ul class="navbar">
+              <li><a class="active" href="#index.html">Home</a></li>
+              <li><a href="#skateboarding.html">Skateboarding's Impact on Learning</a></li>
+              <li><a href="#edtechtools.html">EdTech Tools</a></li>
+              <li><a href="#Newpage.html">Interactive Javascript Element</a></li>
             </ul>
-        </nav>
+            
+            </body>
+    </head>
         <h1 class="major-header-edtech">
             EdTech Tools
         </h1>
             <p>
                 While spending so much time in the College of Education, I have discovered a number of educational technology tools that work well within the classroom.
                 Among some of the many that I find incredible are:
-                <ul>
+                <menu>
                     <li>Padlet</li>
                     <li>Socrative</li>
                     <li>Peardeck</li>
-                </ul>
+                </menu>
             </p>
                 <img src="https://techcrunch.com/wp-content/uploads/2013/02/padlet_hi_res.png?w=990&crop=1" alt="Padlet Logo" style="width: 200px; height: auto;" />
                 <p><strong>Padlet</strong> does incredibly well at allowing students to speak amongst each other, without making themselves the center of aatention.
