@@ -57,58 +57,41 @@
               <li><a href="NewPage.html">Interactive Javascript Element</a></li>
               <li style="float:right"><a class="active" href="Contact.html">Contact</a></li>
             </ul>
+            <div class = "outer-wrapper">
+                <form>
+                    <div class="form-group">
+                      <label for="email">Email
+                        address</label>
+                      <input type="email" class="form-
+                  control" id="email" aria- describedby="emailHelp" placeholder="Enter 
+                  email">
+                      <small id="emailHelp" class="form-text
+                  text-muted">We'll never share your email
+                        with anyone else.</small>
+                    </div>
+                    <div class="form-group" <label for="subject">Subject</label>
+                      <input type="text" class="form-control" id="name">
+                    </div>
+                    <div class="form-group">
+                      <label for="message">Message</label>
+                      <textarea id="message” rows=" 5" cols="40" class="form-control"></textarea>
+                    </div>
+                    <button class="btn btn-lg btn-
+                   primary">Submit Message</button>
+                  </form>
+            
+            </div>
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+             crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+            <script src="main.js"></script>
             
             </body>
-    </head>
-        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-        <script> 
-            $(document).ready(function(){
-              $("#flip").click(function(){
-                $("#panel").slideDown("slow");
-              });
-            });
-            </script>
-            <style> 
-            #panel, #flip {
-              padding: 5px;
-              text-align: center;
-              background-color: #e5eecc;
-              border: solid 1px #c3c3c3;
-            }
-            
-            #panel {
-              padding: 50px;
-              display: none;
-            }
-            </style>
-            </head>
-            <body>
-              <h1 class="major-header-java">
-                Interactive Javascript Element
-              </h1>
-              <div id="center">
-                <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--_pyWGSyD--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://thepracticaldev.s3.amazonaws.com/i/w9u60357jk4ozdho7urq.jpg" alt="Ryan Shekler Skateboarding">
-                </div>
-             
-            <div id="flip">What does clicking on this bar do as a result of the addition of this JQuery element?</div>
-            <div id="panel">It slides down the panel, revealing the answer!</div>
 
             
-
-
-            <script>
-                $(document).ready(function(){
-                  $("#btn1").click(function(){
-                    alert("Text: " + $("#test").text());
-                  });
-                  $("#btn2").click(function(){
-                    alert("HTML: " + $("#test").html());
-                  });
-                });
-                </script>
-                </head>
-                <p id="test">This is an example of <em>emphasized</em> text in a paragraph.</p>
-                
-                <button id="btn1">What is Shown as Text</button>
-                <button id="btn2">What is Shown as HTML</button>
-        </body>
