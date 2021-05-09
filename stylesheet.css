@@ -32,17 +32,17 @@
 	}
 
 .major-header-bio{
-    text-align: center;
+    text-align: left;
     font-size: 34pxl;
 }
 
 .major-header-edtech{
-    text-align: center;
+    text-align: left;
     font-size: 34pxl;
 }
 
 .major-header-java{
-    text-align: center;
+    text-align: left;
     font-size: 34pxl;
 }
 
@@ -52,6 +52,7 @@ ul {
     width: 100%;
   }
 
-.pic-of-me{
-    align-items: center;
-}
+  .img-bio{
+     text-align: left;
+  }
+
