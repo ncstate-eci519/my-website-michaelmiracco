@@ -1,15 +1,13 @@
 .major-header-skate{
-    text-align: center;
+    text-align: left;
     font-size: 34pxl;
 }
 
 .text-blue{
     color:#000000;
   display: inline-block;
-  background: #FFFFFF;
+  background: #a7a3a3;
   padding: 25px 50px;
-  border: 10px solid darkred;
-  border-radius: 10px;
 }
 
 .second-page-header{
@@ -19,10 +17,8 @@
 .second-paragraph-red{
     color: #000000;
     display: inline-block;
-    background: #FFFFFF;
+    background: #a7a3a3;
     padding: 25px 50px;
-    border: 10px solid rgb(25, 0, 139);
-    border-radius: 10px;
 }
 
 @media (prefers-color-scheme: dark){}
